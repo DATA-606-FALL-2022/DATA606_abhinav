@@ -38,6 +38,7 @@ I plan to implement Sequential model on the data. To get the highest level of ac
 <h3>OUTCOMES</h3>
 
 What outcomes do you intend to achieve (better understanding of problems, tools to help solve problems, predictive analytics with practicle applications, etc)?
+
 The goal of this project is to identify the best algorithm for quickly and cheaply diagnosing Alzheimer's. Although the concept appears straightforward, really putting it into practice is rather challenging. The procedure of diagnosing Alzheimer's in the real world will entail a number of additional variables. Therefore, even if this initiative probably won't be able to completely transform the sector, it will undoubtedly serve as a springboard for further advancements.
 
 <h3>REFERENCES</h3>
