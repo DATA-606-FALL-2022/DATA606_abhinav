@@ -1,4 +1,4 @@
-<h1>ALZEIMERS PREDICTION </h1>
+<h1>ALZEIMERS PREDICTION USING MRI images</h1>
 
 Abhinav Reddy Mandadi
  
@@ -9,7 +9,7 @@ The degenerative neurologic illness Alzheimer's disease results in the death of 
 
 What is your issue of interest (provide sufficient background information)? 
 
-I find myself drawn to medical issues that data science can help solve. The topic "Alzheimer's prediction" caught my attention as I searched through many issue statements such as breast cancer detection and skin cancer detection, among others. 
+I find myself drawn to medical issues that data science can help solve. The topic "Alzheimer's prediction using MRI images" caught my attention as I searched through many issue statements such as breast cancer detection and skin cancer detection, among others. 
 
 Why is this issue important to you and/or to others? 
 
@@ -17,9 +17,23 @@ Cost-effectiveness is one of the primary factors that led me to choose this proj
 
 <h3>DATA</h3>
 
-The "centres for disease control and prevention" website is where most of the dataset is sourced from. There are also datasets in dataworld website and many other websites. The dataset contains information on age, gender, socioeconomic position, educational attainment, and brain scan data. The size of the dataset is around 80MB. 
-The datasets from dataworld can be downloaded and combined with the original data if more data is ever required.
-I plan to implement Support Vector Classifier, KNN classifier and MLP classifier on the data. To get the highest level of accuracy, we would compare the algorithms by varying the hyperparameters.
+The Oasis website is where the dataset comes from. Data from 416 subjects and 434 MRI sessions were gathered. Each MRI session's data is stored in a directory with a subject ID label.
+
+An XML file, a text (TXT) file, and three subdirectories—RAW, PROCESSED, and FSL_SEG—are all included in each session directory. The XML file contains anatomic measurements generated from the scan pictures as well as acquisition information. Individual scan pictures are included in the RAW directory. SUBJ_111 and T88_111 are two new subdirectories found in the PROCESSED directory. The averaged, co-registered picture of each individual scan image in the original acquisition space, resampled to 1mm isotropic voxels, is included in SUBJ_111. T88_111 consists of an image that has been brain-masked and resampled to 1mm isotropic voxels together with an image that has been atlas-registered gain field-corrected. It also contains the matrices explaining the conversion into atlas space in a subfolder named t4_files. The grey/white/CSF segmentation picture created from the masked atlas image is contained in the FSL_SEG subfolder.
+
+There is also a dataset containing demographic, clinical, and derived anatomic measures.
+Features of the dataset are:
+Gender: M(Male)/F(Female).
+Age: Age of the patient.
+SES (Socio-Economic Status): It ranges from 1 to 5.
+nWBV: Normalized Whole Brain Volume.
+Educ: This feature corresponds to the levels of education ranging from 1 to 5.
+MMSE: Mini-Mental State Examination.
+CDR (Clinical Dementia Rating): Typically, a CDR value above 0 can be diagnosed with Alzheimer's.
+eTIV: Estimated total intracranial volume (mm3).
+ASF: Atlas scaling factor.
+
+I plan to implement Sequential model on the data. To get the highest level of accuracy, we would compare the algorithms by varying the hyperparameters.
 
 <h3>OUTCOMES</h3>
 
