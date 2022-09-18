@@ -21,6 +21,8 @@ Why is this issue important to you and/or to others?
 
 ![image](https://user-images.githubusercontent.com/46365586/190907995-7abe8472-c537-496b-a985-b5cc47121e0e.png)
 
+![image](https://user-images.githubusercontent.com/46365586/190922002-27953c5f-d639-4176-a070-7b73bfa8f367.png)
+
 <p align = "justify">An XML file, a text (TXT) file, and three subdirectories—RAW, PROCESSED, and FSL_SEG—are all included in each session directory. The XML file contains anatomic measurements generated from the scan pictures as well as acquisition information. Individual scan pictures are included in the RAW directory. SUBJ_111 and T88_111 are two new subdirectories found in the PROCESSED directory. The averaged, co-registered picture of each individual scan image in the original acquisition space, resampled to 1mm isotropic voxels, is included in SUBJ_111. T88_111 consists of an image that has been brain-masked and resampled to 1mm isotropic voxels together with an image that has been atlas-registered gain field-corrected. It also contains the matrices explaining the conversion into atlas space in a subfolder named t4_files. The grey/white/CSF segmentation picture created from the masked atlas image is contained in the FSL_SEG subfolder.</p>
 
 There is also a dataset containing demographic, clinical, and derived anatomic measures.
