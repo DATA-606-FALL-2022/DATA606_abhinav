@@ -57,7 +57,14 @@ Features of the dataset are:
 
 ![image](https://user-images.githubusercontent.com/46365586/190911532-3bb931d2-a84b-4a00-b981-b329c0ea99e6.png)
 
-<p align ="justify">I plan to implement Sequential model on the data.</p>
+<p align ="justify">I plan to implement Neural Networks to solve the problem. Neural networks are networks that process information using sophisticated mathematical models. Human brains are the inspiration for neural networks. A neural network links basic nodes, commonly referred to as neurons or units, much like the human brain does. Additionally, a group of these nodes come together to create a network of nodes, hence the name "neural network." Neural networks are built to respond to changing input conditions. As a consequence, the network delivers the greatest results without needing to change the architecture. The nodes are divided into the input layer, hidden layer and output layer.</p>
+
+<p><img src="https://user-images.githubusercontent.com/46365586/193939742-424b47f3-ec2d-462e-8f24-49b0db95bfbb.png" width=300></p>
+
+<p align="justify">To create a Neural network I would implement a sequential model. Then I will slowly add layers to the model to get the best result possible. The layers include Conv2D, Maxpooling2D, Flatten, Dense, Activation etc. Each layer takes its own set of values to evaluate the images.</p>
+
+
+
 
 <h3>OUTCOMES</h3>
 
@@ -68,6 +75,7 @@ What outcomes do you intend to achieve (better understanding of problems, tools 
 <h3>REFERENCES</h3>
 <ol>
 <li>Alzheimer’s disease - Symptoms and causes. (2022, February 19). Mayo Clinic. Retrieved September 11, 2022, from https://www.mayoclinic.org/diseases-conditions/alzheimers-disease/symptoms-causes/syc-20350447</li>
+<li>Arora, S. K. (n.d.). What is Neural Networks? [Definition] - A Beginner’s Guide. Hackr.io. Retrieved October 4, 2022, from https://hackr.io/blog/what-is-neural-networks</li>
 </ol>
 
 	 
