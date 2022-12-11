@@ -1,4 +1,4 @@
-The dataset is huge to be uploaded into either GitHub or google drive since it contains images. Hence I stored them in my local machine to store the data.<br>
+The dataset is huge to be uploaded into either GitHub or google drive since it contains images. Hence I used my local machine to store the data.<br>
 The structure of the dataset is as follows.
 The <b><i>Capstone</b></i> folder contains a Dataset folder along with the medical information datasets.
 
