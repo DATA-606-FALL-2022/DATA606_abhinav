@@ -17,3 +17,14 @@ These subfolders contain different MRI images.
 For this project, we are using masked images from ' the 'Dataset\OAS1_0001_MR1\PROCESSED\MPRAGE\T88_111' folder.
 
 ![image](https://user-images.githubusercontent.com/46365586/206931045-c6c83233-97d6-4b62-bc2a-a7e43ee97b74.png)
+
+
+The presentation for the project is available at 
+https://www.youtube.com/watch?v=UIdqoPBQkBU
+
+A demo of the project code is available at 
+https://youtu.be/qcbAfMAe2q0
+
+
+A video demo for the structure of the dataset is available at 
+https://www.youtube.com/watch?v=hBHOJA8IWuc
